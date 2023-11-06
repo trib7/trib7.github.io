@@ -1,65 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Module 2 solution </title>
-    <!-- Bootstrap min css-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Responsive Layout</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href='css/style.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<div class="container">
-
-
-    <h1> Our Menu </h1>
-
+  <div class="container">
     <div class="row">
-        <div class="col-md-4 col-sm-6">
-            <div class="p-section">
-                <h4 class="backgroud-1">
-                    Chicken
-                </h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat ante sed tortor gravida pulvinar.
-                    Ut ultricies nunc ac felis pulvinar fringilla ut nec metus. Cras vitae viverra erat, at accumsan enim.
-                    Mauris sit amet laoreet erat, quis porta tortor. Etiam at nunc sit amet ex eleifend auctor. Proin non justo urna.
-                    Etiam vulputate at ante id cursus.
-                </p>
-            </div>
 
+    <h1 class="menu-title">Our menu</h1>
+      <div class="col-lg-4">
+        <div class="item">
+          <div class="item-title" id="title-one">
+            <h3>Chicken</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
+          </p>
         </div>
-
-        <div class="col-md-4 col-sm-6">
-            <div class="p-section">
-                <h4 class="backgroud-2">
-                    Beef
-                </h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat ante sed tortor gravida pulvinar.
-                    Ut ultricies nunc ac felis pulvinar fringilla ut nec metus. Cras vitae viverra erat, at accumsan enim.
-                    Mauris sit amet laoreet erat, quis porta tortor. Etiam at nunc sit amet ex eleifend auctor. Proin non justo urna.
-                    Etiam vulputate at ante id cursus.
-                </p>
-            </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="item">
+         <div class="item-title" id="title-two">
+          <h3>Beef</h3>
         </div>
-
-        <div class="col-md-4 col-sm-12">
-            <div class="p-section">
-                <h4 class="backgroud-3">
-                    Sushi
-                </h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat ante sed tortor gravida pulvinar.
-                    Ut ultricies nunc ac felis pulvinar fringilla ut nec metus. Cras vitae viverra erat, at accumsan enim.
-                    Mauris sit amet laoreet erat, quis porta tortor. Etiam at nunc sit amet ex eleifend auctor. Proin non justo urna.
-                    Etiam vulputate at ante id cursus.
-                </p>
-            </div>
-        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
+        </p>
+      </div>
     </div>
+    <div class="col-lg-4 col-lg-tablet">
+      <div class="item">
+       <div class="item-title" id="title-three">
+        <h3>Sushi</h3>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perferendis enim, consequatur obcaecati iusto! Quia aliquam, obcaecati explicabo adipisci non.
+      </p>
+    </div>
+  </div>
+
+</div>
 </div>
 </body>
 </html>
